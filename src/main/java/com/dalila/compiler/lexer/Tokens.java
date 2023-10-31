@@ -12,10 +12,31 @@ public enum Tokens {
     ERROR,
     Numero,
     Identificador,
+        //Operadores aritmeticos
     Division,
     Igual,
     Suma,
     Resta,
+    Residuo,
     Multiplicacion,
-    Reservadas
+        //Palrabras reservadas
+    If,
+    Else,
+    While,
+    Switch,
+    And,
+    Or,
+    Def,
+    Class,
+        //Tipos de datos
+    Int,
+    string,
+    Float,
+    Double,
+    Boleano,
+    None,
+    Unit,
+    //Return
+    Return
+
 }
