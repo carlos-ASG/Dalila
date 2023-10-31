@@ -27,6 +27,8 @@ public enum Tokens {
     And,
     Or,
     Def,
+    Variable,
+    constante,
     Class,
         //Tipos de datos
     Int,
@@ -37,6 +39,19 @@ public enum Tokens {
     None,
     Unit,
     //Return
-    Return
-
+    Return,
+    // puntuacion
+    DosPuntos,
+    PuntoYComa,
+    llave_a,
+    llave_c,
+    parentecis_a,
+    parentecis_c,
+    saltoLinea,
+    //Operadores Relaciones
+    MayorIgualQue,
+    MenorIgualQue,
+    MayorQue,
+    MenorQue,
+    IgualA,
 }

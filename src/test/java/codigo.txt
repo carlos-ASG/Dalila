@@ -1,0 +1,3 @@
+def main(): unit{
+    vac num1: int = 1;
+}
