@@ -44,7 +44,7 @@ public class LerxerService {
                             resultado += lexer.lexeme + ": es un " + tokens + "\n";
                             break;
                         case Igual:
-                            resultado += lexer.lexeme + ": es un " + tokens + "\n";
+                            resultado += "=: es un " + tokens + "\n";
                             break;
                         case saltoLinea:
                             resultado += "\\n" + ": es un " + tokens + "\n";

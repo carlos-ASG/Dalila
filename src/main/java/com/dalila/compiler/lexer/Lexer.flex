@@ -35,8 +35,12 @@ vac {lexeme=yytext(); return constante;}
 \n {lexeme=yytext(); return saltoLinea;}
 {espacio} {/*Ignore*/}
 "//".* {/*Ignore*/}
-= {return Igual;}
+
 "+" {return Suma;}
+"=" {
+    lexer.lexeme = "=";
+    return Tokens.Igual;
+    }
 "-" {return Resta;}
 "*" {return Multiplicacion;}
 "/" {return Division;}
